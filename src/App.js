@@ -14,12 +14,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and test environment variables.
+          Test environment variables.
         </p>
 
         {/* --- START: ENVIRONMENT VARIABLE TEST SECTION --- */}
         <div style={{ border: '2px solid #61dafb', padding: '10px 20px', marginTop: '20px', borderRadius: '8px' }}>
-          <h3>Testing Environment Variables:</h3>
           <p style={{ textAlign: 'left', fontSize: '1rem' }}>
             Greeting from env: <strong>{greeting || 'REACT_APP_GREETING is not set.'}</strong>
           </p>

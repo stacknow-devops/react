@@ -33,15 +33,6 @@ function App() {
           </p>
         </div>
         {/* --- END: ENVIRONMENT VARIABLE TEST SECTION --- */}
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
